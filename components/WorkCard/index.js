@@ -1,29 +1,49 @@
 import React from "react";
-import Image from 'next/image'; 
-const WorkCard = ({ img, name, description, onClick }) => {
+import Image from "next/image";
+import { Accordion, AccordionItem } from "@nextui-org/react";
+
+const WorkCard = ({ img, name, description, techStack, onClick }) => {
+
+
+  const techStackInSting = techStack.join( ", ");
+
+
   return (
-    <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
-      onClick={onClick}
-    >
-      <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "600px" }}
-      >
-        <Image
-          alt={`${name} ${description}`}
-          className="w-full object-cover hover:scale-110 transition-all ease-out duration-300"
-          src={img}
-          width={100}
-          height={100}
-        />
+    <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+      <div onClick={onClick}>
+        <div className="relative rounded-lg overflow-hidden transition-all ease-out duration-300   pb-2 mob:h-auto">
+          <Image
+            alt={`${name} ${description}`}
+            className="w-full object-cover hover:scale-110 transition-all ease-out duration-300"
+            src={img}
+            width={40}
+            height={40}
+            quality={80}
+          />
+        </div>
+        <h1 className="mt-5 text-3xl font-medium">
+          {name ? name : "Project Name"}
+        </h1>
       </div>
-      <h1 className="mt-5 text-3xl font-medium">
-        {name ? name : "Project Name"}
-      </h1>
-      <h2 className="text-xl opacity-50">
-        {description ? description : "Description"}
-      </h2>
+      <Accordion>
+        <AccordionItem
+          key={name}
+          aria-label={`About ${name}`}
+          subtitle="Press to expand"
+          title="Description"
+        >
+          {description ? description : "Description"}
+        </AccordionItem>
+
+        <AccordionItem
+          key={techStackInSting}
+          aria-label={`About ${techStackInSting}`}
+          subtitle="Press to expand"
+          title="Technologies used"
+        >
+          {techStackInSting}
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 };
