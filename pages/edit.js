@@ -441,7 +441,7 @@ const Edit = () => {
                     <label className="w-1/5 text-lg opacity-50">
                       Technologies Used
                     </label>
-                    <div className=" gap-1 w-full">
+                    <div className="">
                       <TechStack
                         project={project}
                         setData={setData}

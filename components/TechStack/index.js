@@ -23,38 +23,26 @@ const TechStack = ({ project, setData, data }) => {
   const handleCheckboxChange = (selected) => {
     setGroupSelectedNew(selected);
     const { projects } = data;
-    // get the project of current obj
-    let projectTechStack = projects.find(
-      ({ id }) => id === project.id
-    );
-
-    console.log("projectTechStack: ", projectTechStack);
-    // update  the tech stack for that particular project with new 
-    projectTechStack = {
-      ...projectTechStack,
-      techStack: selected,
+    
+  // Find the project with the matching id
+  const updatedProjects = projects.map((currentProject) => {
+    if (currentProject.id === project.id) {
+      // If they match, update the techStack property for this project
+      return {
+        ...currentProject,
+        techStack: selected,
+      };
     }
+    // Otherwise, return the project unchanged
+    return currentProject;
+  });
 
-    console.log("projectTechStack updated: ", projectTechStack);
-
-    // ste new  techstark to  state in parent component
-    // setData({ ...data, projects: [...projects, projectTechStack] });
-    ;
-    // setData((prevData) => ({
-    //   ...prevData,
-    //   project: [
-    //     ...prevData.projects,
-    //     ([project.id]: {
-    //       ...prevData.projects[project.id],
-    //       techStack: selected,
-    //     }),
-    //   ],
-    // }));
+  setData({
+    ...data,
+    projects: updatedProjects,
+  });
   };
 
-//   console.log("groupSelectedNew", groupSelectedNew);
-
-  //   console.log("groupSelectedNew", groupSelectedNew);
   return (
     <>
       <CheckboxGroup
@@ -71,9 +59,7 @@ const TechStack = ({ project, setData, data }) => {
           </CustomCheckbox>
         ))}
       </CheckboxGroup>
-      <p className="mt-4 ml-1 text-default-500">
-        {/* Selected: {groupSelected.join(", ")} */}
-      </p>
+      
     </>
   );
 };
