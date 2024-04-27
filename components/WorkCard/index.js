@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const WorkCard = ({ img, name, description, techStack, onClick }) => {
 
-
+// into one string
   const techStackInSting = techStack.join( ", ");
 
 
@@ -29,16 +29,15 @@ const WorkCard = ({ img, name, description, techStack, onClick }) => {
         <AccordionItem
           key={name}
           aria-label={`About ${name}`}
-          subtitle="Press to expand"
-          title="Description"
+          // subtitle="Press to expand"
+          title="Project Description"
         >
           {description ? description : "Description"}
         </AccordionItem>
 
         <AccordionItem
           key={techStackInSting}
-          aria-label={`About ${techStackInSting}`}
-          subtitle="Press to expand"
+          aria-label={`About ${name}`}
           title="Technologies used"
         >
           {techStackInSting}

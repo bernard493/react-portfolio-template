@@ -3,15 +3,24 @@ import Button from "../components/Button";
 import Header from "../components/Header";
 import { v4 as uuidv4 } from "uuid";
 import { useTheme } from "next-themes";
-
+import { Textarea } from "@nextui-org/react";
+import { CheckboxGroup } from "@nextui-org/react";
+import { CustomCheckbox } from "../components/CustomCheckbox";
 // Data
 import yourData from "../data/portfolio.json";
 import Cursor from "../components/Cursor";
+import TechStack from "../components/TechStack";
 
 const Edit = () => {
   // states
   const [data, setData] = useState(yourData);
   const [currentTabs, setCurrentTabs] = useState("HEADER");
+  const [groupSelected, setGroupSelected] = useState([]);
+
+  // const { projects } = data;
+
+  console.log("data", data);
+  // console.log("techstack", techStack);
   const { theme } = useTheme();
 
   const saveData = () => {
@@ -43,11 +52,10 @@ const Edit = () => {
         {
           id: uuidv4(),
           title: "New Project",
-          description: "Web Design & Development",
-          imageSrc:
-            "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-
-          url: "http://chetanverma.com/",
+          description: "Description",
+          imageSrc:"",
+          url: "",
+          techStack : []
         },
       ],
     });
@@ -58,6 +66,17 @@ const Edit = () => {
     copyProjects = copyProjects.filter((project) => project.id !== id);
     setData({ ...data, projects: copyProjects });
   };
+
+
+
+  // Tech Stack
+  const handleAddTechStackChange = (index, newTechStacks) => {
+    let techStacks = data.projects;
+    techStacks = [newTechStacks];
+    console.log(techStacks);
+  };
+
+
 
   // Services Handler
 
@@ -417,6 +436,19 @@ const Edit = () => {
                       className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
                       type="text"
                     ></input>
+                  </div>
+                  <div className="flex items-center mt-5">
+                    <label className="w-1/5 text-lg opacity-50">
+                      Technologies Used
+                    </label>
+                    <div className=" gap-1 w-full">
+                      <TechStack
+                        project={project}
+                        setData={setData}
+                        data={data}
+                        
+                      />
+                    </div>
                   </div>
                   <hr className="my-10"></hr>
                 </div>
