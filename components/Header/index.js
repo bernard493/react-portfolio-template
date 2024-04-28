@@ -181,7 +181,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:bernardayam493@gmail.com")}>
               Contact
             </Button>
 
@@ -191,8 +191,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <Image
                   // className="h-6"
-                  width={50}
-                  height={24}
+                  width={20}
+                  height={20}
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 />
               </Button>

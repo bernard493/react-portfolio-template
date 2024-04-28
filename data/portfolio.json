@@ -1,120 +1,113 @@
 {
-  "name": "Bernard",
+  "name": "Bernard Ayamboro",
   "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Bernard Ayamboro - curious",
+  "headerTaglineTwo": "I'm Bernard Ayamboro - A passionate",
   "headerTaglineThree": "Software Engineer",
   "headerTaglineFour": " based in london, UK.",
-  "showCursor": true,
-  "showBlog": true,
+  "showCursor": false,
+  "showBlog": false,
   "darkMode": true,
   "showResume": true,
   "socials": [
-    {
-      "id": "1",
-      "title": "Github",
-      "link": "https://github.com/bernard493"
-    },
+    { "id": "1", "title": "Github", "link": "https://github.com/bernard493" },
     {
       "id": "2",
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/bernard-ayamboro-001469209/"
     },
-    
     { "id": "3", "title": "Email", "link": "mailto:bernardayam493@gmail.com" }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://bernard-restcountries.netlify.app/"
+      "title": "VACANSA",
+      "description": "An innovative React Native full-stack app, seamlessly integrating Express.js, Firebase Authentication and Admin, and MongoDB. Built to deliver a dynamic and secure mobile experience, this project showcases my expertise in crafting robust, cross-platform applications with cutting-edge technologies.",
+      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2Fvacansa%20(1).png?alt=media&token=c7586981-e8c1-4ad7-9f23-358afb3ca2dc",
+      "url": "https://expo.dev/preview/update?message=Vacansa%201.0.2&updateRuntimeVersion=1.0.2(1)&createdAt=2024-04-26T23%3A38%3A52.404Z&slug=exp&projectId=5b2016fd-1538-4564-9e38-1edf1109c566&group=86fb4af5-bf6e-401c-9852-68c347546082",
+      "techStack": [
+        "React Native",
+        "Expo",
+        "NodeJS",
+        "ExpressJs",
+        "MongoDB",
+        "Tailwind Css",
+        "React",
+        "TypeScript"
+      ]
     },
     {
       "id": "2",
       "title": "REST COUNTRIES",
-      "description": "Rest Countries is a web application that allows users to explore information about countries from around the world. The application fetches data from a public API containing information about countries",
-      "imageSrc": "https://drive.google.com/file/d/1-hXAfP47mNrg1sBlYUXq3D1ucW5Xtb5T/view?usp=sharing",
-      "url": "https://bernard-restcountries.netlify.app/"
+      "description": "Rest Countries is a web application designed to provide users with comprehensive information about countries worldwide. Leveraging a public API, the platform enables users to search for specific countries, browse through a list of all countries, and access detailed information about each country. Key features include country search functionality, a sortable country list, and detailed country profiles. The application is built using React.js for the frontend, with options for state management using React Context API or Redux, and styling with Tailwind Css. It is designed to be responsive and can be deployed using platforms like Vercel, Netlify, or GitHub Pages. Ultimately, Rest Countries aims to enhance users' understanding and appreciation of global diversity and culture.",
+      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2Frest-countries.png?alt=media&token=7fdf37c6-da32-4d0f-96d3-28d42657ee52",
+      "url": "https://bernard-restcountries.netlify.app/",
+      "techStack": ["React", "Rest API", "Redux", "Tailwind Css"]
     },
     {
-      "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "id": "4565b17e-9c11-42bd-b3b0-7e32d0fe3ef7",
+      "title": "Monzo Demo Clone",
+      "description": "The Monzo Demo Clone for authentication screens is a simulated version of the authentication flow used in the Monzo banking application. It replicates the user interface and functionality of Monzo's login and registration screens for demonstration or educational purposes. This clone typically includes features such as email/username/password login, social media authentication (e.g., Google, Facebook), password recovery, and user registration. By mimicking the Monzo authentication process.",
+      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2FFN-AL530_FN_MON_J_20201020062913.jpg?alt=media&token=3955ea0a-f428-4fbd-a836-abbb045e4c8e",
+      "url": "https://expo.dev/preview/update?message=Monzo%20Demo%20clone&updateRuntimeVersion=1.0.0&createdAt=2024-04-25T22%3A06%3A02.235Z&slug=exp&projectId=fb826014-ad11-4b21-851b-171f92540269&group=e80a10af-5109-4c49-9c8e-8204988ef8f7",
+      "techStack": ["React Native", "Expo"]
     }
   ],
-  "services": [
-    {
-      "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
-    },
-    {
-      "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
-    },
-    {
-      "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
-    },
-    {
-      "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
-    }
-  ],
+  "services": [],
   "aboutpara": "Ever since I can remember, my fascination with technology has been the driving force behind my journey. Fuelled by an unwavering passion to innovate, I'm on a mission to create tech solutions that redefine the way we connect and interact, much like the transformative platforms of today. My journey in technology is marked by a relentless pursuit of knowledge and a thirst for creativity. From mastering programming languages to exploring cutting-edge technologies, every step has been guided by a vision to craft impactful tools that resonate with users on a global scale. Inspired by giants like Facebook, my goal is not just to build software, but to architect experiences that empower and enrich lives. It's about leveraging technology to break barriers, foster meaningful connections, and pave the way for a brighter future.As I continue to push the boundaries of innovation, I remain steadfast in my commitment to learning, growing, and collaborating with like-minded individuals. Together, we can turn dreams into reality and shape the future of technology for generations to come.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a jnr software engineer,",
+    "description": "Dynamic and results-driven Junior Software Developer with knowledge of software development, user interface design and application performance seeking to further enhance professional career by applying expertise and skill set to a position with a forward-thinking organization. Demonstrated ability to produce successful solutions that lead to improved customer satisfaction, streamlined processes, and increased project efficiency. Eager to leverage strong collaboration, problem solving and documentation skills to maintain system architecture and code organization.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
+        "dates": "Jun 7, 2023 - Present",
+        "type": "Personal Project",
+        "position": "FullStack React Native ",
+        "bullets": "Developed a highly functional and user-friendly FullStack React Native Hotel Booking app facilitating seamless hotel room bookings, Leveraged Expo ReactNative framework, Redux for efficient state management and various third-party libraries such as Axios  Tailwind to enhance app functionalities, Utilized ExpressJs for the backend, MongoDB for the database, Firebase Admin for effective backend development and image storage capabilities, Jest for testing with the help of codiumAi plugin"
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "dates": "Jan 8, 2023- Present",
+        "type": "Personal Project",
+        "position": "REST COUNTRIES",
+        "bullets": " A webapp application for comprehensive country information,Utilizes a public API to gather data on countries worldwide,Features country search functionality for easy access to specific information,Offers a sortable country list for browsing through all countries,Provides detailed country profiles with comprehensive information,Built using React.js for frontend development,Options for state management include React Context API or Redux,Styled with Tailwind CSS for a modern and responsive design,Deployment  on Netlify, Aims to enhance users' understanding and appreciation of global diversity and culture"
+      },
+      {
+        "id": "d495c23bT68976787--4f65-479a-9b8a-cfbc1c089725",
+        "dates": "Nov 28, 2023- Present",
+        "type": "Personal Project",
+        "position": "REACT NATIVE MONZO DEMO CLONE",
+        "bullets": "Rest Countries: A web application for comprehensive country information,Utilizes a public API to gather data on countries worldwide,Features country search functionality for easy access to specific information,Offers a sortable country list for browsing through all countries,Provides detailed country profiles with comprehensive information,Built using React.js for frontend development,Options for state management include React Context API or Redux,Styled with Tailwind CSS for a modern and responsive design,Deployment  on Netlify, Aims to enhance users' understanding and appreciation of global diversity and culture"
       }
     ],
-    "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "educations": [
+      {
+        "id": "uyw34w2we89wguis",
+        "universityName": "BrainStation, London Uk",
+        "universityDate": "Fed 2024 - Present",
+        "universityPara": "Computer Software Engineering"
+      },
+      {
+        "id": "uyw89w34r5eguis",
+        "universityName": "FreeCodeCamp",
+        "universityDate": "Nov-2022",
+        "universityPara": "Responsive Web  Design Certification"
+      },
+      {
+        "id": "uyw8345rrrv49wguis",
+        "universityName": "University of Professional Studies, Accra Ghana",
+        "universityDate": "Jun 2018 - 2020",
+        "universityPara": "Diploma in Information Technology Management"
+      }
+    ],
+    "languages": ["Javascript", "HTML5", "CSS"],
+    "frameworks": [
+      "React",
+      "React Native",
+      "Typescript",
+      "NodeJs",
+      "ExpressJs"
+    ],
+    "others": ["Figma"]
   }
 }
