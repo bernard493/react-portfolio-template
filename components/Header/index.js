@@ -2,7 +2,7 @@ import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'; 
+import Image from "next/image";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
@@ -39,7 +39,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     }
                   >
                     <Image
-                    alt="moon icon"
                       className="h-6"
                       width={50}
                       height={24}
@@ -83,16 +82,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={() => router.push("/resume")}
                     >
                       Resume
                     </Button>
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() =>
+                      window.open("mailto:bernardayam493@gmail.com")
+                    }
                   >
                     Contact
                   </Button>
@@ -115,7 +114,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() =>
+                      window.open("mailto:bernardayam493@gmail.com")
+                    }
                   >
                     Contact
                   </Button>
@@ -152,7 +153,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button
+              onClick={() => window.open("mailto:bernardayam493@gmail.com")}
+            >
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -184,7 +187,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:bernardayam493@gmail.com")}>
+            <Button
+              onClick={() => window.open("mailto:bernardayam493@gmail.com")}
+            >
               Contact
             </Button>
 
