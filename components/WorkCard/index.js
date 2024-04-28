@@ -12,10 +12,12 @@ const WorkCard = ({ img, name, description, techStack, onClick }) => {
     <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
       <div onClick={onClick} className="cursor-pointer">
         <div className="relative rounded-lg overflow-hidden transition-all ease-out duration-300   pb-2 mob:h-auto">
-          <img
+          <Image
             alt={`${name} ${description}`}
             className="w-full object-cover hover:scale-110 transition-all ease-out duration-300 "
             src={img}
+            width={568}
+            height={568}
             
           />
         </div>
