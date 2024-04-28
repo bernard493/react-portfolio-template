@@ -20,17 +20,17 @@ const Resume = () => {
     if (!showResume) {
       router.push("/");
     }
-  }, [router]);
+  }, [router, showResume]);
 
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
+      {/* {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
           <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
           </Button>
         </div>
-      )}
+      )} */}
       {portfolioInformation.showCursor && <Cursor />}
       <div
         className={`container mx-auto mb-10 ${
@@ -71,10 +71,8 @@ const Resume = () => {
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
                 {resume.educations.map((education) => (
-                  <div className="mt-2 py-2">
-                    <h2 className="text-lg">
-                      {education.universityName}
-                    </h2>
+                  <div key={education.id} className="mt-2 py-2">
+                    <h2 className="text-lg">{education.universityName}</h2>
                     <h3 className="text-sm opacity-75">
                       {education.universityDate}
                     </h3>
