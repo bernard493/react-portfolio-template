@@ -23,7 +23,7 @@
       "title": "VACANSA",
       "description": "An innovative React Native full-stack app, seamlessly integrating Express.js, Firebase Authentication and Admin, and MongoDB. Built to deliver a dynamic and secure mobile experience, this project showcases my expertise in crafting robust, cross-platform applications with cutting-edge technologies.",
       "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2Fvacansa%20(1).png?alt=media&token=c7586981-e8c1-4ad7-9f23-358afb3ca2dc",
-      "url": "https://expo.dev/preview/update?message=Vacansa%20build%20v1.0.1%20&updateRuntimeVersion=1.0.0&createdAt=2024-04-24T17%3A08%3A47.886Z&slug=exp&projectId=5b2016fd-1538-4564-9e38-1edf1109c566&group=28ddedcd-0036-4949-a0b2-fafaa5bc8ab0",
+      "url": "https://expo.dev/preview/update?message=Vacansa%201.0.2&updateRuntimeVersion=1.0.2(1)&createdAt=2024-04-26T23%3A38%3A52.404Z&slug=exp&projectId=5b2016fd-1538-4564-9e38-1edf1109c566&group=86fb4af5-bf6e-401c-9852-68c347546082",
       "techStack": [
         "React Native",
         "Expo",
@@ -46,8 +46,8 @@
     {
       "id": "4565b17e-9c11-42bd-b3b0-7e32d0fe3ef7",
       "title": "Monzo Demo Clone",
-      "description": "Web Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "The Monzo Demo Clone for authentication screens is a simulated version of the authentication flow used in the Monzo banking application. It replicates the user interface and functionality of Monzo's login and registration screens for demonstration or educational purposes. This clone typically includes features such as email/username/password login, social media authentication (e.g., Google, Facebook), password recovery, and user registration. By mimicking the Monzo authentication process.",
+      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2FFN-AL530_FN_MON_J_20201020062913.jpg?alt=media&token=3955ea0a-f428-4fbd-a836-abbb045e4c8e",
       "url": "https://expo.dev/preview/update?message=Monzo%20Demo%20clone&updateRuntimeVersion=1.0.0&createdAt=2024-04-25T22%3A06%3A02.235Z&slug=exp&projectId=fb826014-ad11-4b21-851b-171f92540269&group=e80a10af-5109-4c49-9c8e-8204988ef8f7",
       "techStack": ["React Native", "Expo"]
     }
