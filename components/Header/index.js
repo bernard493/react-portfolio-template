@@ -39,6 +39,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     }
                   >
                     <Image
+                    alt="moon icon"
                       className="h-6"
                       width={50}
                       height={24}
@@ -52,6 +53,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <Popover.Button>
                   <Image
                     // className="h-5"
+                    alt="Moon Icon"
                     width={50}
                     height={24}
                     src={`/images/${
@@ -159,6 +161,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <Image
                   // className="h-6"
+                  alt="moon icon"
                   width={50}
                   height={24}
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
@@ -191,6 +194,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <Image
                   // className="h-6"
+                  alt="moon icon"
                   width={20}
                   height={20}
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
