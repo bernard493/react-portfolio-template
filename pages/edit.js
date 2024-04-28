@@ -671,7 +671,7 @@ const Edit = () => {
                   <div className="mt-2 flex">
                     <label className="w-1/5 text-lg opacity-50">Bullets</label>
                     <div className="w-4/5 ml-10 flex flex-col">
-                      <input
+                      <textarea
                         value={experiences.bullets}
                         onChange={(e) =>
                           handleEditExperiences(index, {
@@ -682,7 +682,7 @@ const Edit = () => {
                         placeholder="Bullet One, Bullet Two, Bullet Three"
                         className="p-2 rounded-md shadow-lg border-2"
                         type="text"
-                      ></input>
+                      ></textarea>
                     </div>
                   </div>
                 </div>
