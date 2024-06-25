@@ -1,8 +1,7 @@
 import React, {useState}from "react";
 
 const ProjectResume = ({ dates, type, position, bullets }) => {
-  const [bulletsLocal, setBulletsLocal] = useState(bullets.split(","));
-
+  const [bulletsLocal, setBulletsLocal] = useState(bullets.split("-"));
   return (
     <div className="mt-5 mx-2 w-full flex mob:flex-col desktop:flex-row justify-between">
       <div className="text-lg w-full desktop:w-2/5">

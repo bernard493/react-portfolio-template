@@ -64,7 +64,7 @@ const Resume = () => {
                       type={type}
                       position={position}
                       bullets={bullets}
-                    ></ProjectResume>
+                    />
                   )
                 )}
               </div>
