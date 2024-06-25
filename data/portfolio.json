@@ -56,28 +56,28 @@
   "aboutpara": "Ever since I can remember, my fascination with technology has been the driving force behind my journey. Fuelled by an unwavering passion to innovate, I'm on a mission to create tech solutions that redefine the way we connect and interact, much like the transformative platforms of today. My journey in technology is marked by a relentless pursuit of knowledge and a thirst for creativity. From mastering programming languages to exploring cutting-edge technologies, every step has been guided by a vision to craft impactful tools that resonate with users on a global scale. Inspired by giants like Facebook, my goal is not just to build software, but to architect experiences that empower and enrich lives. It's about leveraging technology to break barriers, foster meaningful connections, and pave the way for a brighter future.As I continue to push the boundaries of innovation, I remain steadfast in my commitment to learning, growing, and collaborating with like-minded individuals. Together, we can turn dreams into reality and shape the future of technology for generations to come.",
   "resume": {
     "tagline": "👋  I'm a software engineer,",
-    "description": "Dynamic and results-driven  Software Developer with knowledge of software development, user interface design and application performance seeking to further enhance professional career by applying expertise and skill set to a position with a forward-thinking organization. Demonstrated ability to produce successful solutions that lead to improved customer satisfaction, streamlined processes, and increased project efficiency. Eager to leverage strong collaboration, problem solving and documentation skills to maintain system architecture and code organization.",
+    "description": "Software Engineer with expertise in HTML, CSS, JavaScript, TypeScript, React, and React Native, along with backend skills in ExpressJs, MongoDB, and Firebase. Successfully developed an MVP, showcasing full-cycle development and REST API design. Known for creating responsive, user-centric web applications with strong problem-solving and innovative design skills.",
     "experiences": [
       {
         "id": "1",
         "dates": "Dec 2022 - Jan 2024",
         "type": "Personal Project",
         "position": "FullStack React Native ",
-        "bullets": "Developed a highly functional and user-friendly FullStack React Native Hotel Booking app facilitating seamless hotel room bookings, Leveraged Expo ReactNative framework, Redux for efficient state management and various third-party libraries such as Axios  Tailwind to enhance app functionalities, Utilized ExpressJs for the backend, MongoDB for the database, Firebase Admin for effective backend development and image storage capabilities, Jest for testing with the help of codiumAi plugin"
+        "bullets": "Developed a user-friendly full-stack React Native hotel booking app using Expo Redux and Axios facilitating seamless room bookings,Implemented Express.js, MongoDB, and Firebase Admin for secure backend development, including robust database management and image storage."
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
         "dates": "Jan , 2023",
         "type": "Personal Project",
         "position": "REST COUNTRIES",
-        "bullets": " A webapp application for comprehensive country information,Utilizes a public API to gather data on countries worldwide,Features country search functionality for easy access to specific information,Offers a sortable country list for browsing through all countries,Provides detailed country profiles with comprehensive information,Built using React.js for frontend development,Options for state management include React Context API or Redux,Styled with Tailwind CSS for a modern and responsive design,Deployment  on Netlify, Aims to enhance users' understanding and appreciation of global diversity and culture"
+        "bullets": "Developed Rest Countries, a responsive React.js web application with country search sortable list and detailed profiles, using a public API for data and styled with Tailwind CSS and managed state with React Context API or Redux,Deployed the application on platforms like Vercel, Netlify, or GitHub Pages for accessibility and scalability."
       },
       {
         "id": "d495c23bT68976787--4f65-479a-9b8a-cfbc1c089725",
         "dates": "Nov 2023",
         "type": "Personal Project",
         "position": "REACT NATIVE MONZO DEMO CLONE",
-        "bullets": "Rest Countries: A web application for comprehensive country information,Utilizes a public API to gather data on countries worldwide,Features country search functionality for easy access to specific information,Offers a sortable country list for browsing through all countries,Provides detailed country profiles with comprehensive information,Built using React.js for frontend development,Options for state management include React Context API or Redux,Styled with Tailwind CSS for a modern and responsive design,Deployment  on Netlify, Aims to enhance users' understanding and appreciation of global diversity and culture"
+        "bullets": "The Monzo Demo Clone for authentication screens is a simulated version of the authentication flow used in the Monzo banking application."
       }
     ],
     "educations": [

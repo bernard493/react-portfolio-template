@@ -45,6 +45,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
+                      alt="dark  icon svg"
                     />
                   </Button>
                 )}

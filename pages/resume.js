@@ -37,7 +37,7 @@ const Resume = () => {
           portfolioInformation.showCursor && "cursor-none"
         }`}
       >
-        <Header isBlog />
+        {/* <Header  /> */}
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
