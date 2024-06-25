@@ -63,14 +63,14 @@
         "dates": "Dec 2022 - Jan 2024",
         "type": "Personal Project",
         "position": "FullStack React Native ",
-        "bullets": "Developed a user-friendly full-stack React Native hotel booking app using Expo Redux and Axios facilitating seamless room bookings,Implemented Express.js, MongoDB, and Firebase Admin for secure backend development, including robust database management and image storage."
+        "bullets": "Developed a user-friendly full-stack React Native hotel booking app using Expo Redux and Axios facilitating seamless room bookings Implemented Express.js MongoDB and Firebase Admin for secure backend development including robust database management and image storage."
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
         "dates": "Jan , 2023",
         "type": "Personal Project",
         "position": "REST COUNTRIES",
-        "bullets": "Developed Rest Countries, a responsive React.js web application with country search sortable list and detailed profiles, using a public API for data and styled with Tailwind CSS and managed state with React Context API or Redux,Deployed the application on platforms like Vercel, Netlify, or GitHub Pages for accessibility and scalability."
+        "bullets": "Developed Rest Countries a responsive React.js web application with country search sortable list and detailed profiles using a public API for data and styled with Tailwind CSS and managed state with React Context API or Redux Deployed the application on platforms like Vercel Netlify or GitHub Pages for accessibility and scalability."
       },
       {
         "id": "d495c23bT68976787--4f65-479a-9b8a-cfbc1c089725",
