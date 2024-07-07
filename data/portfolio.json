@@ -23,7 +23,7 @@
       "title": "VACANSA",
       "description": "An innovative React Native full-stack app, seamlessly integrating Express.js, Firebase Authentication and Admin, and MongoDB. Built to deliver a dynamic and secure mobile experience, this project showcases my expertise in crafting robust, cross-platform applications with cutting-edge technologies.",
       "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vacanza-3729c.appspot.com/o/portfolio-project-images%2Fvacansa%20(1).png?alt=media&token=c7586981-e8c1-4ad7-9f23-358afb3ca2dc",
-      "url": "https://expo.dev/preview/update?message=Vacansa%201.0.2&updateRuntimeVersion=1.0.2(1)&createdAt=2024-04-26T23%3A38%3A52.404Z&slug=exp&projectId=5b2016fd-1538-4564-9e38-1edf1109c566&group=86fb4af5-bf6e-401c-9852-68c347546082",
+      "url": "https://expo.dev/preview/update?message=%5Border%20placing%20bug%20fixed%20---%20minor%20typo%20in%20confirm%20booking%20page%20%5D&updateRuntimeVersion=1.0.2(1)&createdAt=2024-07-07T23%3A27%3A06.204Z&slug=exp&projectId=5b2016fd-1538-4564-9e38-1edf1109c566&group=ca9c84ff-3681-40ca-b58c-de5f855ee4b2",
       "techStack": [
         "React Native",
         "Expo",
